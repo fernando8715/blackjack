@@ -19,8 +19,8 @@
     <div class="row mt-2">
         <div id="botones" class="col text-center">
             <button id="btnNuevo" class="btn btn-danger">Nuevo juevo</button>
-            <button id="btnPedir" class="btn btn-primary">Pedir carta</button>
-            <button id="btnDetener" class="btn btn-primary">Detener</button>
+            <button id="btnPedir" disabled="disabled" class="btn btn-primary">Pedir carta</button>
+            <button id="btnDetener" disabled="disabled" class="btn btn-primary">Detener</button>
         </div>
     </div>
 
@@ -48,6 +48,10 @@
    
     <script src="./assets/js/underscore-min.js"></script> <!--libretia underscore -->
     <script src="./assets/js/juego.js"></script>
+
+    <script>
+        miModulo.nuevoJuego();
+    </script>
 
 </body>
 </html>
